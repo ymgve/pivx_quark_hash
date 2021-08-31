@@ -1,5 +1,9 @@
 #include <stdlib.h>
+#ifndef _WIN32
 #include <stdint.h>
+#else
+typedef unsigned int uint32_t;
+#endif
 #include <string.h>
 #include <stdio.h>
 
@@ -25,9 +29,12 @@ void quark_hash(const char* input, char* output)
 
     uint32_t mask[16];
     uint32_t zero[16];
+    
+    int i;
+    
     mask[0] = 8;
     zero[0] = 0;
-    for(int i=1; i<16; i++) {
+    for(i=1; i<16; i++) {
     		mask[i] = 0;
     		zero[i] = 0;
     }

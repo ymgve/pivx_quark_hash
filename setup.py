@@ -1,3 +1,4 @@
+import setuptools
 from distutils.core import setup, Extension
 
 quark_hash_module = Extension('pivx_quark_hash',

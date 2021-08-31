@@ -1,4 +1,4 @@
-quark_hash (v1.2)
+quark_hash (v1.2win)
 ===========================
 
 Python module for PIVX quark hashing.
@@ -50,3 +50,4 @@ Credits
 * Module maintained by @vertoe https://github.com/vertoe/darkcoin_hash
 * Module maintained by @jakehaas https://github.com/jakehaas/x11_hash
 * Module maintained by @gpdionisio https://github.com/gpdionisio/pivx_quark_hash
+* Module updated for Windows by @ymgve https://github.com/ymgve/pivx_quark_hash
